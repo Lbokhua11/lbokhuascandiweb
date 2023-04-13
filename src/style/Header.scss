@@ -1,0 +1,62 @@
+$text_color : white;
+$danger_hover: #f44336;
+$header_width: 400px;
+$header_height: 70px;
+.header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+  
+    z-index: 1000;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    height: $header_height;
+    background-image: url("/picture/new.jpg");
+    background-repeat: no-repeat;
+   background-size: 100%;
+   position: fixed;
+   top: 0;
+   color: red;
+   min-width: 500px;
+ 
+}
+.header__leftside {
+    width: $header_width;
+    
+}
+.header__leftside > h1 {
+text-align: center;
+color: #E12228;
+}
+.header__right {
+    width: $header_width;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__right > button{
+  padding: 0px 16px;
+    align-items: center;
+    cursor: pointer;
+   
+  
+}
+.btnn {
+    border: 2px solid black;
+    background-color: $text_color;
+    color: black;
+    padding: 0px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    text-decoration: none;
+  }
+  .dangerr{
+    background-color: $text_color;
+    border-color: $danger_hover;
+    color: red;
+    border-radius: 10%;
+  }
+  .dangerr:hover {
+    background: $danger_hover;
+    color: $text_color;
+  }

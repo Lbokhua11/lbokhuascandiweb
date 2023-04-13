@@ -1,0 +1,28 @@
+.Footer {
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: #E2DEEC;
+    
+}
+
+.leftfooter {
+    background-image: url(/picture/scandiweb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 30%;
+    height: 50px;
+    width: 50%;
+}
+.rightfooter{
+    height: 50px;
+    margin-right: 240px;
+    margin-top: 10px;
+    
+}
